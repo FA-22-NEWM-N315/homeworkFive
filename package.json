@@ -1,0 +1,23 @@
+{
+  "name": "homeworkfive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FA-22-NEWM-N315/homeworkFive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FA-22-NEWM-N315/homeworkFive/issues"
+  },
+  "homepage": "https://github.com/FA-22-NEWM-N315/homeworkFive#readme"
+}
