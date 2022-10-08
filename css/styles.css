@@ -12,3 +12,16 @@ html, body {
 h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
 }
+
+.feb {
+  width: 100%;
+  height: 600px;
+}
+.feb .banner {
+  width: 1464px;
+  height: 463px;
+  background-image: url(../images/february-favorites-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
