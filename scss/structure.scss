@@ -11,3 +11,18 @@ html, body {
 h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px
 }
+
+@font-face {
+    font-family: SegoeUi;
+    src: url(../css/fonts-2/segoeui.ttf);
+}
+
+@font-face {
+    font-family: SegoeUiBold;
+    src: url(../css/fonts-2/segoeuib.ttf);
+}
+
+@font-face {
+    font-family: SegoeUiBold2;
+    src: url(../css/fonts-2/seguibl.ttf);
+}

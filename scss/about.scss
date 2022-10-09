@@ -1,0 +1,63 @@
+.auOne {
+    position: absolute;
+    width: 1500px;
+    height: 587px;
+    background-color: palevioletred;
+    margin-left: 120px;
+    margin-top: 120px;
+
+    .picOne {
+        position: relative;
+        width: 393px;
+        height: 587px;
+        background-color: yellow;
+        top: -102px;
+    }
+
+    h1 {
+        position: relative;
+        left: 790px;
+        font-family: SegoeUi;
+        font-weight: bolder;
+        font-size: 32px;
+        text-transform: uppercase;
+        top: 60px;
+    }
+
+    p {
+        position: relative;
+        left: 880px;
+        font-family: SegoeUi;
+        font-weight: bolder;
+        font-size: 20px;
+        text-transform: uppercase;
+        top: 50px;
+    }
+}
+
+.auTwo {
+    position: absolute;
+    width: 1500px;
+    height: 587px;
+    background-color: palevioletred;
+    margin-left: 120px;
+    margin-top: 820px;
+
+    .picTwo {
+        position: relative;
+        width: 393px;
+        height: 587px;
+        background-color: yellow;
+        top: -59px;
+    }
+
+    h1 {
+        position: relative;
+        left: 790px;
+        font-family: SegoeUi;
+        font-weight: bolder;
+        font-size: 32px;
+        text-transform: uppercase;
+        top: 60px;
+    }
+}
