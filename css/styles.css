@@ -102,11 +102,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 92px;
   background-color: #587C83;
-  top: 1440px;
+  top: 1840px;
 }
 
 .copy {
@@ -405,58 +405,572 @@ footer {
 .auOne {
   position: absolute;
   width: 1500px;
-  height: 587px;
-  background-color: palevioletred;
+  height: 400px;
   margin-left: 120px;
-  margin-top: 120px;
+  margin-top: 220px;
 }
 .auOne .picOne {
   position: relative;
-  width: 393px;
-  height: 587px;
+  width: 293px;
+  height: 400px;
   background-color: yellow;
   top: -102px;
+  background-image: url(../images/about-photo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .auOne h1 {
   position: relative;
-  left: 790px;
+  left: 740px;
   font-family: SegoeUi;
   font-weight: bolder;
   font-size: 32px;
   text-transform: uppercase;
-  top: 60px;
+  top: 40px;
 }
-.auOne p {
+.auOne h2 {
   position: relative;
-  left: 880px;
+  left: 840px;
   font-family: SegoeUi;
   font-weight: bolder;
   font-size: 20px;
   text-transform: uppercase;
-  top: 50px;
+  top: 30px;
+}
+.auOne p {
+  position: relative;
+  height: 200px;
+  width: 1000px;
+  margin-top: -360px;
+  left: 440px;
+  font-family: SegoeUi;
+  font-size: 16px;
+  font-weight: lighter;
 }
 
 .auTwo {
   position: absolute;
   width: 1500px;
-  height: 587px;
-  background-color: palevioletred;
+  height: 400px;
   margin-left: 120px;
-  margin-top: 820px;
+  margin-top: 720px;
 }
 .auTwo .picTwo {
   position: relative;
-  width: 393px;
-  height: 587px;
+  width: 293px;
+  height: 400px;
   background-color: yellow;
   top: -59px;
+  background-image: url(../images/about-photo-two.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .auTwo h1 {
   position: relative;
-  left: 790px;
+  left: 740px;
   font-family: SegoeUi;
   font-weight: bolder;
   font-size: 32px;
   text-transform: uppercase;
   top: 60px;
+}
+.auTwo p {
+  position: relative;
+  height: 200px;
+  width: 1000px;
+  margin-top: -300px;
+  left: 440px;
+  font-family: SegoeUi;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.blog_One {
+  width: 1464px;
+  height: 463px;
+  background-color: #587C83;
+  position: relative;
+  margin: 0 auto;
+  top: 160px;
+}
+.blog_One .img_one {
+  position: absolute;
+  height: 380px;
+  width: 250px;
+  background-color: aquamarine;
+  top: 40px;
+  left: 80px;
+  background-image: url(../images/becoming.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.blog_One .img_one-2 {
+  position: absolute;
+  height: 372px;
+  width: 246px;
+  background-color: pink;
+  top: 40px;
+  left: 420px;
+  background-image: url(../images/finding-me.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.blog_One .desc_one {
+  position: absolute;
+  width: 413px;
+  height: 380px;
+  top: 40px;
+  left: 880px;
+}
+.blog_One .desc_one .tag_one {
+  width: 364px;
+  height: 32px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.blog_One .desc_one .tag_one h2 {
+  font-size: 32px;
+  font-family: SegoeUi;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+.blog_One .desc_one .p_one {
+  width: 413px;
+  height: 153px;
+  margin-top: 60px;
+}
+.blog_One .desc_one .p_one p {
+  font-size: 16px;
+  font-family: SegoeUi;
+  text-align: center;
+  color: #fff;
+}
+.blog_One .desc_one .link_one {
+  width: 222px;
+  height: 68px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid #fff;
+}
+.blog_One .desc_one .link_one a {
+  position: relative;
+  font-size: 16px;
+  font-family: SegoeUi;
+  margin-left: 68px;
+  top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.blog_two {
+  width: 1464px;
+  height: 463px;
+  background-color: #587C83;
+  position: relative;
+  margin: 0 auto;
+  top: 260px;
+}
+.blog_two .img_two {
+  position: absolute;
+  height: 463px;
+  width: 622px;
+  background-color: aquamarine;
+  background-image: url(../images/open-book-blog.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.blog_two .desc_two {
+  position: absolute;
+  width: 413px;
+  height: 380px;
+  top: 40px;
+  left: 880px;
+}
+.blog_two .desc_two .tag_two {
+  width: 364px;
+  height: 32px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.blog_two .desc_two .tag_two h2 {
+  font-size: 30px;
+  font-family: SegoeUi;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+.blog_two .desc_two .p_two {
+  width: 413px;
+  height: 153px;
+  margin-top: 60px;
+}
+.blog_two .desc_two .p_two p {
+  font-size: 16px;
+  font-family: SegoeUi;
+  text-align: center;
+  color: #fff;
+}
+.blog_two .desc_two .link_two {
+  width: 222px;
+  height: 68px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid #fff;
+}
+.blog_two .desc_two .link_two a {
+  position: relative;
+  font-size: 16px;
+  font-family: SegoeUi;
+  margin-left: 68px;
+  top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.blog_three {
+  width: 1464px;
+  height: 463px;
+  background-color: #587C83;
+  position: relative;
+  margin: 0 auto;
+  top: 360px;
+}
+.blog_three .img_three {
+  position: absolute;
+  height: 463px;
+  width: 626px;
+  background-color: aquamarine;
+  background-image: url(../images/ereading-blog.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.blog_three .desc_three {
+  position: absolute;
+  width: 413px;
+  height: 380px;
+  top: 40px;
+  left: 880px;
+}
+.blog_three .desc_three .tag_three {
+  width: 364px;
+  height: 32px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.blog_three .desc_three .tag_three h2 {
+  font-size: 24px;
+  font-family: SegoeUi;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+.blog_three .desc_three .p_three {
+  width: 413px;
+  height: 153px;
+  margin-top: 60px;
+}
+.blog_three .desc_three .p_three p {
+  font-size: 16px;
+  font-family: SegoeUi;
+  text-align: center;
+  color: #fff;
+}
+.blog_three .desc_three .link_three {
+  width: 222px;
+  height: 68px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid #fff;
+}
+.blog_three .desc_three .link_three a {
+  position: relative;
+  font-size: 16px;
+  font-family: SegoeUi;
+  margin-left: 68px;
+  top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.inputs {
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.inputs .log_in {
+  position: relative;
+  width: 233px;
+  height: 400px;
+}
+.inputs .log_in .ltag {
+  position: absolute;
+  width: 134px;
+  height: 26px;
+  top: 60px;
+}
+.inputs .log_in .ltag h2 {
+  font-size: 20px;
+  font-family: SegoeUi;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: lighter;
+  color: #000;
+}
+.inputs .log_in .lemail {
+  position: absolute;
+  top: 120px;
+}
+.inputs .log_in .lemail input {
+  width: 233px;
+  height: 24px;
+  border-style: none;
+  border-bottom: 2px solid #000;
+}
+.inputs .log_in .lemail input ::-webkit-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .log_in .lemail input ::-moz-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .log_in .lemail input :-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .log_in .lemail input ::-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .log_in .lemail input ::placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .log_in .lpword {
+  position: absolute;
+  top: 170px;
+}
+.inputs .log_in .lpword input {
+  width: 233px;
+  height: 24px;
+  border-style: none;
+  border-bottom: 2px solid #000;
+}
+.inputs .log_in .lpword input ::-webkit-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .log_in .lpword input ::-moz-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .log_in .lpword input :-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .log_in .lpword input ::-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .log_in .lpword input ::placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .log_in .login button {
+  width: 170px;
+  height: 45px;
+  background-color: #587C83;
+  margin: 0 auto;
+  margin-top: 240px;
+  margin-left: 40px;
+  position: relative;
+  font-size: 16px;
+  font-family: SegoeUi;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+.inputs .sign_up {
+  width: 233px;
+  height: 400px;
+}
+.inputs .sign_up .stag {
+  width: 150px;
+  height: 16px;
+  top: 60px;
+}
+.inputs .sign_up .stag h4 {
+  position: relative;
+  font-size: 12px;
+  font-family: SegoeUi;
+  text-align: left;
+  text-transform: lowercase;
+  font-weight: bold;
+  color: #000;
+  top: 18px;
+}
+.inputs .sign_up .stag h2 {
+  font-size: 20px;
+  font-family: SegoeUi;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: lighter;
+  color: #000;
+}
+.inputs .sign_up .in_boxes {
+  position: relative;
+  width: 233px;
+  height: 200px;
+  display: inline-block;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  top: 60px;
+}
+.inputs .sign_up .in_boxes .fn input {
+  width: 233px;
+  height: 24px;
+  border-style: none;
+  border-bottom: 2px solid #000;
+}
+.inputs .sign_up .in_boxes .fn input ::-webkit-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .fn input ::-moz-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .fn input :-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .fn input ::-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .fn input ::placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .ln {
+  margin-top: 20px;
+}
+.inputs .sign_up .in_boxes .ln input {
+  width: 233px;
+  height: 24px;
+  border-style: none;
+  border-bottom: 2px solid #000;
+}
+.inputs .sign_up .in_boxes .ln input ::-webkit-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .ln input ::-moz-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .ln input :-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .ln input ::-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .ln input ::placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .ea {
+  margin-top: 20px;
+}
+.inputs .sign_up .in_boxes .ea input {
+  width: 233px;
+  height: 24px;
+  border-style: none;
+  border-bottom: 2px solid #000;
+}
+.inputs .sign_up .in_boxes .ea input ::-webkit-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .ea input ::-moz-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .ea input :-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .ea input ::-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .ea input ::placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .pw {
+  margin-top: 20px;
+}
+.inputs .sign_up .in_boxes .pw input {
+  width: 233px;
+  height: 24px;
+  border-style: none;
+  border-bottom: 2px solid #000;
+}
+.inputs .sign_up .in_boxes .pw input ::-webkit-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .pw input ::-moz-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .pw input :-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .pw input ::-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .in_boxes .pw input ::placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.inputs .sign_up .signup button {
+  width: 170px;
+  height: 45px;
+  background-color: #587C83;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-left: 40px;
+  position: relative;
+  font-size: 16px;
+  font-family: SegoeUi;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
 }

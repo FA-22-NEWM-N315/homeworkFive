@@ -1,0 +1,259 @@
+.blog_One {
+    width: 1464px;
+    height: 463px;
+    background-color: #587C83;
+    position: relative;
+    margin: 0 auto;
+    top: 160px;
+
+    .img_one {
+        position: absolute;
+        height: 380px;
+        width: 250px;
+        background-color: aquamarine;
+        top: 40px;
+        left: 80px;
+        
+        background-image: url(../images/becoming.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .img_one-2 {
+        position: absolute;
+        height: 372px;
+        width: 246px;
+        background-color: pink;
+        top: 40px;
+        left: 420px;
+
+        background-image: url(../images/finding-me.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .desc_one {
+        position: absolute;
+        width: 413px;
+        height: 380px;
+        // background-color: rosybrown;
+        top: 40px;
+        left: 880px;
+
+        .tag_one {
+            width: 364px;
+            height: 32px;
+            // background-color: blue;
+            margin: 0 auto;
+            margin-top: 30px;
+
+            h2 {
+                font-size: 32px;
+                font-family: SegoeUi;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #fff;
+            }
+        }
+
+        .p_one {
+            width: 413px;
+            height: 153px;
+            // background-color: blue;
+            margin-top: 60px;
+
+            p {
+                font-size: 16px;
+                font-family: SegoeUi;
+                text-align: center;
+                color: #fff;
+            }
+        }
+
+        .link_one {
+            width: 222px;
+            height: 68px;
+            // background-color: blue;
+            margin: 0 auto;
+            margin-top: 20px;
+            border: 2px solid #fff;
+            
+
+            a {
+                position: relative;
+                font-size: 16px;
+                font-family: SegoeUi;
+                margin-left: 68px;
+                top: 20px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.blog_two {
+    width: 1464px;
+    height: 463px;
+    background-color: #587C83;
+    position: relative;
+    margin: 0 auto;
+    top: 260px;
+
+    .img_two {
+        position: absolute;
+        height: 463px;
+        width: 622px;
+        background-color: aquamarine;  
+
+        background-image: url(../images/open-book-blog.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .desc_two {
+        position: absolute;
+        width: 413px;
+        height: 380px;
+        // background-color: rosybrown;
+        top: 40px;
+        left: 880px;
+
+        .tag_two {
+            width: 364px;
+            height: 32px;
+            // background-color: blue;
+            margin: 0 auto;
+            margin-top: 30px;
+
+            h2 {
+                font-size: 30px;
+                font-family: SegoeUi;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #fff;
+            }
+        }
+
+        .p_two {
+            width: 413px;
+            height: 153px;
+            // background-color: blue;
+            margin-top: 60px;
+
+            p {
+                font-size: 16px;
+                font-family: SegoeUi;
+                text-align: center;
+                color: #fff;
+            }
+        }
+
+        .link_two {
+            width: 222px;
+            height: 68px;
+            // background-color: blue;
+            margin: 0 auto;
+            margin-top: 20px;
+            border: 2px solid #fff;
+
+            a {
+                position: relative;
+                font-size: 16px;
+                font-family: SegoeUi;
+                margin-left: 68px;
+                top: 20px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.blog_three {
+    width: 1464px;
+    height: 463px;
+    background-color: #587C83;
+    position: relative;
+    margin: 0 auto;
+    top: 360px;
+
+    .img_three {
+        position: absolute;
+        height: 463px;
+        width: 626px;
+        background-color: aquamarine;  
+
+        background-image: url(../images/ereading-blog.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .desc_three {
+        position: absolute;
+        width: 413px;
+        height: 380px;
+        // background-color: rosybrown;
+        top: 40px;
+        left: 880px;
+
+        .tag_three {
+            width: 364px;
+            height: 32px;
+            // background-color: blue;
+            margin: 0 auto;
+            margin-top: 30px;
+
+            h2 {
+                font-size: 24px;
+                font-family: SegoeUi;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #fff;
+            }
+        }
+
+        .p_three {
+            width: 413px;
+            height: 153px;
+            // background-color: blue;
+            margin-top: 60px;
+
+            p {
+                font-size: 16px;
+                font-family: SegoeUi;
+                text-align: center;
+                color: #fff;
+            }
+        }
+
+        .link_three {
+            width: 222px;
+            height: 68px;
+            // background-color: blue;
+            margin: 0 auto;
+            margin-top: 20px;
+            border: 2px solid #fff;
+
+            a {
+                position: relative;
+                font-size: 16px;
+                font-family: SegoeUi;
+                margin-left: 68px;
+                top: 20px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}

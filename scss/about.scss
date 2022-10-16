@@ -1,22 +1,81 @@
 .auOne {
     position: absolute;
     width: 1500px;
-    height: 587px;
-    background-color: palevioletred;
+    height: 400px;
+    // background-color: palevioletred;
     margin-left: 120px;
-    margin-top: 120px;
+    margin-top: 220px;
 
     .picOne {
         position: relative;
-        width: 393px;
-        height: 587px;
+        width: 293px;
+        height: 400px;
         background-color: yellow;
         top: -102px;
+
+        background-image: url(../images/about-photo.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     h1 {
         position: relative;
-        left: 790px;
+        left: 740px;
+        font-family: SegoeUi;
+        font-weight: bolder;
+        font-size: 32px;
+        text-transform: uppercase;
+        top:40px;
+    }
+
+    h2 {
+        position: relative;
+        left: 840px;
+        font-family: SegoeUi;
+        font-weight: bolder;
+        font-size: 20px;
+        text-transform: uppercase;
+        top: 30px;
+    }
+
+    p {
+        position: relative;
+        height: 200px;
+        width: 1000px;
+        // background-color: blue;
+        margin-top: -360px;
+        left: 440px;
+        font-family: SegoeUi;
+        font-size: 16px;
+        font-weight: lighter;      
+    }
+}
+
+.auTwo {
+    position: absolute;
+    width: 1500px;
+    height: 400px;
+    // background-color: palevioletred;
+    margin-left: 120px;
+    margin-top: 720px;
+
+    .picTwo {
+        position: relative;
+        width: 293px;
+        height: 400px;
+        background-color: yellow;
+        top: -59px;
+
+        background-image: url(../images/about-photo-two.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    h1 {
+        position: relative;
+        left: 740px;
         font-family: SegoeUi;
         font-weight: bolder;
         font-size: 32px;
@@ -26,38 +85,13 @@
 
     p {
         position: relative;
-        left: 880px;
+        height: 200px;
+        width: 1000px;
+        // background-color: blue;
+        margin-top: -300px;
+        left: 440px;
         font-family: SegoeUi;
-        font-weight: bolder;
-        font-size: 20px;
-        text-transform: uppercase;
-        top: 50px;
-    }
-}
-
-.auTwo {
-    position: absolute;
-    width: 1500px;
-    height: 587px;
-    background-color: palevioletred;
-    margin-left: 120px;
-    margin-top: 820px;
-
-    .picTwo {
-        position: relative;
-        width: 393px;
-        height: 587px;
-        background-color: yellow;
-        top: -59px;
-    }
-
-    h1 {
-        position: relative;
-        left: 790px;
-        font-family: SegoeUi;
-        font-weight: bolder;
-        font-size: 32px;
-        text-transform: uppercase;
-        top: 60px;
+        font-size: 16px;
+        font-weight: lighter;      
     }
 }

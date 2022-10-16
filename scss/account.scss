@@ -1,0 +1,214 @@
+.inputs {
+    width: 1200px;
+    height: 400px;
+    // background-color: brown;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-around;
+
+    .log_in {
+        position: relative;
+        width: 233px;
+        height: 400px;
+        // background-color: antiquewhite;  
+
+        .ltag {
+            position: absolute;
+            width: 134px;
+            height: 26px;
+            // background-color: palevioletred;
+            top: 60px;
+
+            h2 {
+                font-size: 20px;
+                font-family: SegoeUi;
+                text-align: left;
+                text-transform: capitalize;
+                font-weight: lighter;
+                color: #000;
+            }
+        }
+
+        .lemail {
+            position: absolute;
+            top: 120px;
+            
+            
+            input {
+                width: 233px;
+                height: 24px;
+                border-style: none;
+                border-bottom: 2px solid #000;
+
+                ::placeholder {
+                    color: #000;
+                    font-family: SegoeUi;
+                }
+            }
+        }
+
+        .lpword {
+            position: absolute;
+            top: 170px;
+            
+            
+            input {
+                width: 233px;
+                height: 24px;
+                border-style: none;
+                border-bottom: 2px solid #000;
+
+                ::placeholder {
+                    color: #000;
+                    font-family: SegoeUi;
+                }
+            }
+        }
+
+        .login {
+            button {
+                width: 170px;
+                height: 45px;
+                background-color: #587C83;
+                margin: 0 auto;
+                margin-top: 240px;
+                margin-left: 40px;
+                position: relative;
+                font-size: 16px;
+                font-family: SegoeUi;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+    
+    .sign_up {
+        width: 233px;
+        height: 400px;
+        // background-color: blueviolet;
+
+        .stag {
+            // position: absolute;
+            width: 150px;
+            height: 16px;
+            // background-color: palevioletred;
+            top: 60px;
+
+            h4 {
+                position: relative;
+                font-size: 12px;
+                font-family: SegoeUi;
+                text-align: left;
+                text-transform: lowercase;
+                font-weight: bold;
+                color: #000;
+                top: 18px;
+            }
+
+            h2 {
+                font-size: 20px;
+                font-family: SegoeUi;
+                text-align: left;
+                text-transform: capitalize;
+                font-weight: lighter;
+                color: #000;
+            }
+        }
+
+        .in_boxes {
+            position: relative;
+            width: 233px;
+            height: 200px;
+            // background-color: antiquewhite;
+            display: inline-block;
+            justify-content: space-evenly;
+            top: 60px;
+
+            .fn {
+                input {
+                    width: 233px;
+                    height: 24px;
+                    border-style: none;
+                    border-bottom: 2px solid #000;
+                    
+                
+                    ::placeholder {
+                        color: #000;
+                        font-family: SegoeUi;
+                    }
+                }
+            }
+
+            .ln {
+                margin-top: 20px;
+                input {
+                    width: 233px;
+                    height: 24px;
+                    border-style: none;
+                    border-bottom: 2px solid #000;
+                    
+                
+                    ::placeholder {
+                        color: #000;
+                        font-family: SegoeUi;
+                    }
+                }
+            }
+
+            .ea {
+                margin-top: 20px;
+                input {
+                    width: 233px;
+                    height: 24px;
+                    border-style: none;
+                    border-bottom: 2px solid #000;
+                    
+                
+                    ::placeholder {
+                        color: #000;
+                        font-family: SegoeUi;
+                    }
+                }
+            }
+
+            .pw {
+                margin-top: 20px;
+                input {
+                    width: 233px;
+                    height: 24px;
+                    border-style: none;
+                    border-bottom: 2px solid #000;
+                    
+                
+                    ::placeholder {
+                        color: #000;
+                        font-family: SegoeUi;
+                    }
+                }
+            }
+        }
+
+        .signup {
+            
+
+            button {
+                width: 170px;
+                height: 45px;
+                background-color: #587C83;
+                margin: 0 auto;
+                margin-top: 60px;
+                margin-left: 40px;
+                position: relative;
+                font-size: 16px;
+                font-family: SegoeUi;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+
+    }
+}

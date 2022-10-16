@@ -1,7 +1,6 @@
 {
   "name": "homeworkfive",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -19,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/FA-22-NEWM-N315/homeworkFive/issues"
   },
-  "homepage": "https://github.com/FA-22-NEWM-N315/homeworkFive#readme"
+  "homepage": "https://github.com/FA-22-NEWM-N315/homeworkFive#readme",
+  "description": ""
 }
