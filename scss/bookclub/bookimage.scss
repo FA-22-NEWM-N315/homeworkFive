@@ -1,0 +1,61 @@
+.bookimage{
+    width: 100%;
+    height: 900px;
+   
+
+    .glasses{
+        width: 100%;
+        height: 900px;
+        display: flex;
+       
+
+        .pic{
+            width: 500px;
+            height: 460px;
+            background-image: url(../images/open-book-blog.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-left: 120px;
+            
+            
+        }
+
+        .sent{
+            margin-left: 16px;
+            width: 910px;
+            height: 500px;
+           flex-direction: column;
+           font-size: 16px;
+        }
+
+        .sen{
+            width: 900px;
+            font-size: 16px;
+            margin-bottom: 25px;
+            font-family: SegoeUi;
+        }
+
+        .sentwo{
+            width: 1000px;
+            font-size: 16px;
+            margin-bottom: 25px;
+            font-family: SegoeUi;
+        }
+
+        .senthree{
+            width: 1000px;
+            font-size: 16px;
+            margin-bottom: 25px;
+            font-family: SegoeUi;
+        }
+
+        .senfour{
+            width: 1000px;
+            font-size: 16px;
+            font-family: SegoeUi;
+        }
+
+ 
+    }
+}

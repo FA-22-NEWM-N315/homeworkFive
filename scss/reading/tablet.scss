@@ -1,0 +1,37 @@
+.tabletimage{
+    width: 100%;
+    height: 900px;
+
+    .mug{
+        width: 100%;
+        height: 900px;
+        display: flex;
+
+        .picture{
+            width: 500px;
+            height: 460px;
+            background-image: url(../images/ereading-blog.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-left: 120px;
+        }
+
+        .send{
+            margin-left: 16px;
+            width: 910px;
+            height: 500px;
+           flex-direction: column;
+           font-size: 16px;
+           font-family: SegoeUi;
+
+           .sendone{
+            max-width: 900px;
+            font-size: 16px;
+            margin-bottom: 25px;
+            font-family: SegoeUi;
+        }
+        }
+
+    }
+}

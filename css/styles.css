@@ -974,3 +974,266 @@ footer {
   text-decoration: none;
   color: #fff;
 }
+
+.book {
+  width: 100%;
+  height: 480px;
+}
+.book .banners {
+  margin: 0 auto;
+  width: 1200px;
+  height: 463px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(88, 124, 131, 0.8)), to(rgba(88, 124, 121, 0.8))), url(../images/book-club-hero.jpg);
+  background-image: linear-gradient(rgba(88, 124, 131, 0.8), rgba(88, 124, 121, 0.8)), url(../images/book-club-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.book .banners .about {
+  width: 1000px;
+  height: 500px;
+  left: 30px;
+  color: white;
+  font-size: 32px;
+  padding: 150px;
+}
+.book .banners .about p {
+  font-family: SegoeUi;
+  padding-left: 300px;
+}
+.book .banners .books {
+  width: 1128px;
+  height: 26px;
+  font-size: 26px;
+  margin-top: 26px;
+}
+
+.best {
+  position: absolute;
+  bottom: 370px;
+  margin-left: -80px;
+  padding: 10px;
+  font-size: 16px;
+  right: 400px;
+}
+
+.bookimage {
+  width: 100%;
+  height: 900px;
+}
+.bookimage .glasses {
+  width: 100%;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bookimage .glasses .pic {
+  width: 500px;
+  height: 460px;
+  background-image: url(../images/open-book-blog.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 120px;
+}
+.bookimage .glasses .sent {
+  margin-left: 16px;
+  width: 910px;
+  height: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 16px;
+}
+.bookimage .glasses .sen {
+  width: 900px;
+  font-size: 16px;
+  margin-bottom: 25px;
+  font-family: SegoeUi;
+}
+.bookimage .glasses .sentwo {
+  width: 1000px;
+  font-size: 16px;
+  margin-bottom: 25px;
+  font-family: SegoeUi;
+}
+.bookimage .glasses .senthree {
+  width: 1000px;
+  font-size: 16px;
+  margin-bottom: 25px;
+  font-family: SegoeUi;
+}
+.bookimage .glasses .senfour {
+  width: 1000px;
+  font-size: 16px;
+  font-family: SegoeUi;
+}
+
+.allnovel {
+  width: 100%;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.allnovel .novel-info {
+  max-width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.allnovel .novel-image {
+  width: 223px;
+  height: 246px;
+  background-color: aliceblue;
+  background-image: url(../images/twilight.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-imaged {
+  width: 223px;
+  height: 246px;
+  background-color: aliceblue;
+  background-image: url(../images/hp-box-set.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-images {
+  width: 223px;
+  height: 246px;
+  background-color: aliceblue;
+  background-image: url(../images/got-box-set.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-imag {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/finding-me.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-imags {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/mlk-biography.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-imagsd {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/elenor-roosevelt-biography.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-pic {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/misery.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-pics {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/frankenstein.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-photo {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/phantoms.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-photo2 {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/winnie.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-photo3 {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/cat.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-photo4 {
+  width: 206px;
+  height: 311px;
+  background-color: aliceblue;
+  background-image: url(../images/fun-facts-about-space.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.allnovel .novel-text {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 14px;
+  max-width: 90%;
+  font-size: 12px;
+  font-family: SegoeUi;
+}
+.allnovel .price {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  margin-left: 14px;
+  font-family: SegoeUi;
+}
+.allnovel button {
+  margin-left: 14px;
+  color: gray;
+  width: 100px;
+  height: 60px;
+  font-family: SegoeUi;
+}
+
+h3 {
+  font-family: SegoeUi;
+  margin-left: 20px;
+}
+
+@media all and (max-width: 1000px) {
+  .allnovel {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 100px;
+  }
+}

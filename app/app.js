@@ -78,7 +78,6 @@ function initListeners() {}
  
 $(document).ready(function () {
     console.log("ready")
-    route();
     initApp();
     init();
     initTwo();

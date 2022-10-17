@@ -1,0 +1,36 @@
+.reading {
+  width: 100%;
+  height: 480px;
+}
+.reading .poster {
+  margin: 0 auto;
+  width: 1200px;
+  height: 463px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(88, 124, 131, 0.8)), to(rgba(88, 124, 121, 0.8))), url(../images/eread-hero.jpg);
+  background-image: linear-gradient(rgba(88, 124, 131, 0.8), rgba(88, 124, 121, 0.8)), url(../images/eread-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.reading .poster .postertext {
+  margin: 0 auto;
+  width: 1000px;
+  height: 500px;
+  left: 30px;
+  color: white;
+  font-size: 32px;
+  padding: 150px;
+  font-family: SegoeUi;
+}
+.reading .poster .postertext .postertexts {
+  margin-left: 50px;
+  font-size: 32px;
+  font-family: SegoeUi;
+}
+.reading .poster .reader {
+  width: 1000px;
+  font-size: 20px;
+  margin-top: 26px;
+  margin-right: 70px;
+  font-family: SegoeUi;
+}

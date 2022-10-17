@@ -1,0 +1,195 @@
+.allnovel{
+   
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+   
+    
+    align-items: center;
+    // justify-content: space-evenly;
+
+    .novel-info{
+        
+        
+        max-width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+   
+
+    .novel-image{
+        width: 223px;
+        height: 246px;
+        background-color: aliceblue;
+        background-image: url(../images/twilight-box-set.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    .novel-imaged{
+        width: 223px;
+        height: 246px;
+        background-color: aliceblue;
+        background-image: url(../images/hp-box-set.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .novel-images{
+        width: 223px;
+        height: 246px;
+        background-color: aliceblue;
+        background-image: url(../images/got-box-set.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    .novel-imag{
+        width: 206px;
+        height: 311px;
+        background-color: aliceblue;
+        background-image: url(../images/finding-me.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    .novel-imags{
+        width: 206px;
+        height: 311px;
+        background-color: aliceblue;
+        background-image: url(../images/mlk-biography.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    .novel-imagsd{
+        width: 206px;
+        height: 311px;
+        background-color: aliceblue;
+        background-image: url(../images/elenor-roosevelt-biography.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .novel-pic{
+        width: 206px;
+        height: 311px;
+        background-color: aliceblue;
+        background-image: url(../images/misery.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .novel-pics{
+        width: 206px;
+        height: 311px;
+        background-color: aliceblue;
+        background-image: url(../images/frankenstein.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .novel-photo{
+        width: 206px;
+        height: 311px;
+        background-color: aliceblue;
+        background-image: url(../images/phantoms.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .novel-photo2{
+        width: 206px;
+        height: 311px;
+        background-color: aliceblue;
+        background-image: url(../images/winnie\ the\ pooh.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .novel-photo3{
+        width: 206px;
+        height: 311px;
+        background-color: aliceblue;
+        background-image: url(../images/cat\ and\ the\ hat.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .novel-photo4{
+        width: 206px;
+        height: 311px;
+        background-color: aliceblue;
+        background-image: url(../images/fun-facts-about-space.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+
+
+
+
+    .novel-text{
+        margin-top: 40px;
+       
+        margin-bottom: 30px;
+        margin-left: 14px;
+        max-width: 90%;
+        font-size: 12px;
+        font-family: SegoeUi;
+        text-align: center;
+        
+    }
+    .price{
+        // margin-bottom: 90px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+        margin-left: 14px;
+        font-family: SegoeUi;
+    }
+  button{
+    margin-left: 14px;
+    color: gray;
+    width: 100px;
+    height: 60px;
+    font-family: SegoeUi;
+    
+    // height: 68px;
+  }
+}
+
+h3{
+    font-family: SegoeUi;
+    margin-left: 20px;
+}
+
+@media all and (max-width:1000px
+){
+  .allnovel{
+      flex-direction: column;
+      margin-top: 100px;
+    //   height: 1500px;
+      
+  }
+
+  
+}

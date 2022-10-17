@@ -1,0 +1,51 @@
+.book{
+    width: 100%;
+    height: 480px;
+.banners{
+    margin: 0 auto;
+    width: 1200px;
+    height: 463px;
+    // background-color: antiquewhite;
+    background-image: linear-gradient(rgba(88, 124, 131, 0.8), rgba(88, 124, 121, 0.8)),
+    url(../images/book-club-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .about{
+        width: 1000px;
+        height: 500px;
+    //    background-color: bisque;
+        left: 30px;
+        color: white;
+        font-size: 32px;
+        padding: 150px;
+        p{
+            font-family: SegoeUi;
+            padding-left: 300px;
+        }
+    }
+
+    .books{
+        width: 1128px;
+        height: 26px;
+        font-size: 26px;
+        margin-top: 26px;
+
+    }
+   
+
+}
+}
+
+.best{
+   
+    position: absolute;
+        bottom: 370px;
+      
+        margin-left: -80px;
+        padding: 10px;
+        font-size: 16px;
+       right: 400px;
+}
+
